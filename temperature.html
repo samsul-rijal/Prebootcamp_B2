@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Convert Temperature Samsul Rijal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Convert Temperature Task</h1>
+    <h2>Samsul Rijal</h2>
+
+    <h3>Masukan Suhu</h3>
+    <form>
+        Celcius
+        <input id="inputCelcius" type="number" placeholder="Celcius" oninput="temperatureCelcius(this.value)"
+            onchange="temperatureCelcius(this.value)">
+
+        <p>Hasil Konversi Celsius: <span id="outputCelsius"></span></p>
+
+        Reamur
+        <input id="inputReamur" type="number" placeholder="Reamur" oninput="temperatureReamur(this.value)"
+            onchange="temperatureReamur(this.value)">
+
+        <p>Hasil Konversi Reamur: <span id="outputReamur"></span></p>
+
+        Fahrenheit
+        <input id="inputFahrenheit" type="number" placeholder="Fahrenheit" oninput="temperatureFahrenheit(this.value)"
+            onchange="temperatureFahrenheit(this.value)">
+
+        <p>Hasil Konversi Fahrenheit: <span id="outputFahrenheit"></span></p>
+
+        Kelvin
+        <input id="inputKelvin" type="number" placeholder="Kelvin" oninput="temperatureKelvin(this.value)"
+            onchange="temperatureKelvin(this.value)">
+    </form>
+
+    <p>Hasil Konversi Kelvin: <span id="outputKelvin"></span></p>
+
+    <script src="temperature.js"></script>
+</body>
+
+</html>
