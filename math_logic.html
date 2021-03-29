@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Math Logic Samsul Rijal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1>Math Logic Task</h1>
+    <h2>Samsul Rijal</h2>
+    <form>
+        Nama Pegawai <br>
+        <input type="text" id="inputNama" placeholder="Masukan nama"><br><br>
+        Golongan <br>
+        <select name="golongan" id="inputGolongan">
+            <option value="">Pilih</option>
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+            <option value="D">D</option>
+        </select><br><br>
+        Lama Jam Bekerja <br>
+        <input type="number" id="inputJam" placeholder="Masukan jam"><br><br>
+        <button type="button" onclick="printGaji()">Submit</button>
+    </form>
+    
+    <p id="output-nama"> </p>
+    <p id="output-golongan"> </p>
+    <p id="output-perhari"> </p>
+    <p id="output-bulanan"> </p>
+    <p id="output-lembur"> </p>
+    <p id="output-total"> </p>
+    <p id="output-gaji"> </p>
+    
+    
+
+    <script src="math_logic.js"></script>
+</body>
+</html>
